@@ -1,0 +1,55 @@
+/* Config de base */
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    background-color: #afe0d8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.artist{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.artist li{
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+
+.artist a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.artist a:hover{
+    text-decoration: underline red;
+}
+.music{
+    width: 40px;
+    padding-top: 10px;
+}
+
+.music:hover{
+    width: 55px;
+}
+
+.title{
+   text-decoration: underline black; 
+   text-shadow: 10px 10px 8px black;
+}
